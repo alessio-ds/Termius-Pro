@@ -1,6 +1,8 @@
 # Termius Pro Trial Crack
 Currently works up to v9.32.2 - untested for newer versions.
 
+### Works on Windows/macOS/Linux
+
 ### 📦 Requirements
 
 - Python
@@ -12,11 +14,13 @@ npm install -g @electron/asar
 
 ### 🪄 How to use
 Make sure Termius is completely closed.
-Put the lang.py file and the rules folder in the same path, then run:
+Put the trial.py and trial.txt files in the same path (add osxfix.sh too if you're on MacOS), then run:
 ```
-python lang.py --trial
+python trial.py 
 ```
-If you wish to rollback the changes:
+Open Termius and you're set.
+
+To disable automatic updates, delete:
 ```
-python lang.py --restore
+C:\Users\XXXXXXX\AppData\Local\Programs\Termius\resources\app-update.yml
 ```
