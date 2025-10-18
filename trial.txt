@@ -1,0 +1,4 @@
+/return \w+.user.account.pro_mode/|return !0
+/return \w+.user.account.user_type/|return "Pro"
+/return \w+.user.account.plan_type/|return "Pro"
+/return \w+\(\w+,"show_trial_section"\)/|return !1
