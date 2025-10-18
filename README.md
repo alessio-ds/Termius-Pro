@@ -14,6 +14,7 @@ npm install -g @electron/asar
 
 ### 🪄 How to use
 Make sure Termius is completely closed.
+
 Put the trial.py and trial.txt files in the same path (add osxfix.sh too if you're on MacOS), then run:
 ```
 python trial.py 
